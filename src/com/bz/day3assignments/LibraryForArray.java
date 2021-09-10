@@ -13,7 +13,7 @@ public class LibraryForArray {
         int i,j,k,l;
         for ( i = 0; i < row; i++) {
             for (j = 0; j < column; j++) {
-                System.out.println("Enter the array elements");
+                System.out.println("Enter the array elements of row "+i+" and column "+j);
                 array[i][j] = sc.nextInt();
             }
         }
