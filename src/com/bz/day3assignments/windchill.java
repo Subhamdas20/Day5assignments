@@ -3,7 +3,7 @@ package com.bz.day3assignments;
 import java.util.Scanner;
 
 public class windchill {
-    public static void main(String[] args) {
+    static void calculateEffectiveTemperature(){
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the temperature in Fahrenheit");
         double temperature_Fahrenheit=sc.nextDouble();
@@ -16,5 +16,8 @@ public class windchill {
         }
         else
             System.out.println("Invalid input from user");
+    }
+    public static void main(String[] args) {
+      calculateEffectiveTemperature();
     }
 }
