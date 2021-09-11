@@ -24,7 +24,7 @@ public class LibraryForArray {
             System.out.println();
         }
     }
-        static void arrayDoublePrint() {
+         void arrayDoublePrint() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number of rows");
         int row = sc.nextInt();
@@ -74,9 +74,9 @@ public class LibraryForArray {
     }
 
         public static void main (String[]args){
-
+        LibraryForArray obj=new LibraryForArray();
+            obj.arrayDoublePrint();
             arrayIntPrint();
-            arrayDoublePrint();
             arrayBooleanPrint();
         }
 
