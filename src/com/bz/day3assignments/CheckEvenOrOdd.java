@@ -12,5 +12,6 @@ public class CheckEvenOrOdd {
         else
             System.out.println(number+" is an odd number");
          System.out.println(number+" is an odd number");
+         System.out.println(number+" is an odd number");
     }
 }
